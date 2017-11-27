@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.23)  27 NOV 2017 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.23)  27 NOV 2017 17:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -228,9 +228,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 r.png>]
 (./SON.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1.
+(Font)              <5> on input line 2.
 )
 \tf@toc=\write3
 \openout3 = `SON.toc'.
@@ -239,6 +239,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ] [2
 
+
 ] (./SON.bbl) 
 AED: lastpage setting LastPage
 [3
@@ -246,22 +247,23 @@ AED: lastpage setting LastPage
 
 ] (./SON.aux) ) 
 Here is how much of TeX's memory you used:
- 3435 strings out of 494902
- 49551 string characters out of 6179890
+ 3437 strings out of 494902
+ 49572 string characters out of 6179890
  223905 words of memory out of 5000000
- 6693 multiletter control sequences out of 15000+600000
- 9492 words of font info for 33 fonts, out of 8000000 for 9000
+ 6694 multiletter control sequences out of 15000+600000
+ 9800 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  39i,7n,43p,286b,225s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SON.pdf (4 pages, 112028 bytes).
+bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on SON.pdf (4 pages, 124716 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

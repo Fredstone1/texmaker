@@ -1,3 +1,4 @@
+\contentsline {chapter}{SON - Introduction and overview}{2}
 \contentsline {section}{Introduction}{2}
 \contentsline {section}{Overview}{2}
-\contentsline {section}{References}{3}
+\contentsline {chapter}{References}{3}
