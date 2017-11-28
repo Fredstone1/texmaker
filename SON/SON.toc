@@ -3,6 +3,8 @@
 \contentsline {section}{\numberline {1.2}Overview}{2}
 \contentsline {section}{\numberline {1.3}Why SON?}{2}
 \contentsline {chapter}{\numberline {2}Self-configuration}{3}
+\contentsline {section}{\numberline {2.1}Main idea and overview}{3}
+\contentsline {subsection}{\numberline {2.1.1}Process of eNB self-configuration}{3}
 \contentsline {chapter}{\numberline {3}Self-optimization}{4}
 \contentsline {chapter}{\numberline {4}Self-healing}{5}
 \contentsline {chapter}{References}{6}

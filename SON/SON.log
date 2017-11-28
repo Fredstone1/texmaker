@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.23)  27 NOV 2017 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.11.23)  28 NOV 2017 13:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -492,26 +492,26 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 ) (./SON.aux)
 \openout1 = `SON.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 86.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 107.
+(lastpage)             ! on input line 86.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -580,44 +580,42 @@ e
 <dtulogo.png, id=1, 709.65125pt x 1027.84pt>
 File: dtulogo.png Graphic file (type png)
  <use dtulogo.png>
-Package pdftex.def Info: dtulogo.png used on input line 110.
+Package pdftex.def Info: dtulogo.png used on input line 89.
 (pdftex.def)             Requested size: 106.44308pt x 154.16934pt.
 
 <dtufooter.png, id=3, 828.09375pt x 154.5775pt>
 File: dtufooter.png Graphic file (type png)
  <use dtufooter.png>
-Package pdftex.def Info: dtufooter.png used on input line 114.
+Package pdftex.def Info: dtufooter.png used on input line 93.
 (pdftex.def)             Requested size: 207.02293pt x 38.64427pt.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 116.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 95.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 116.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 95.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 116
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 95.
+
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 116
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 95.
+
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 116.
+(Font)              <12> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 116.
+(Font)              <8> on input line 95.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 116.
+(Font)              <6> on input line 95.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./dtulogo.png> <./dtufoote
@@ -636,6 +634,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 ]
 Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
 [2
 
 ]
@@ -657,20 +660,20 @@ AED: lastpage setting LastPage
 
 ] (./SON.aux) ) 
 Here is how much of TeX's memory you used:
- 4427 strings out of 494902
- 59970 string characters out of 6179890
- 217507 words of memory out of 5000000
- 7632 multiletter control sequences out of 15000+600000
+ 4437 strings out of 494902
+ 60122 string characters out of 6179890
+ 218519 words of memory out of 5000000
+ 7642 multiletter control sequences out of 15000+600000
  70756 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 39i,7n,43p,446b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,7n,43p,600b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf
 /fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
 2.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmri12.pfb>
-Output written on SON.pdf (7 pages, 211205 bytes).
+Output written on SON.pdf (7 pages, 220942 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
