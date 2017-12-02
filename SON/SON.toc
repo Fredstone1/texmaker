@@ -11,8 +11,8 @@
 \contentsline {chapter}{\numberline {3}Self-optimization}{5}
 \contentsline {section}{\numberline {3.1}Main idea and overview}{5}
 \contentsline {section}{\numberline {3.2}Features of self-optimization}{5}
-\contentsline {subsection}{\numberline {3.2.1}Mobility Robustness Optimization (MRO)}{5}
-\contentsline {subsection}{\numberline {3.2.2}Mobility Load Balancing (MLB)}{5}
+\contentsline {subsection}{\numberline {3.2.1}Mobility Load Balancing (MLB)}{5}
+\contentsline {subsection}{\numberline {3.2.2}Mobility Robustness Optimization (MRO)}{5}
 \contentsline {subsection}{\numberline {3.2.3}Minimization of Drive Tests (MDT)}{5}
 \contentsline {subsubsection}{MDT Management and Reporting}{5}
 \contentsline {subsection}{\numberline {3.2.4}Energy Savings}{5}

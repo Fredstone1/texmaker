@@ -174,12 +174,16 @@ All neighbours of one cell must have different PCIs. \cite{Feng2008}
 %----------------------------------------------------------------------------------------
 \chapter{Self-optimization}
 \section{Main idea and overview}
+After the network has self-configured it should also be able to adapt according to load and other factors. This is where self-optimization comes in. To ensure effective management and operation of the network, the network should, after configuring itself, have algorithms and processes to make decisions in regards to efficiency and performance. If implemented correctly this will increase performance and stability while keeping cost and energy at a minimum. This is done by taking measurements from both UEs and eNBs and using these to regulate the network. 
 
 \section{Features of self-optimization}
-
-\subsection{Mobility Robustness Optimization (MRO)}
+There are several important features of self-optimization, which all contribute to making SON much better. 
 
 \subsection{Mobility Load Balancing (MLB)}
+Mobile Load Balancing (MLB) is especially relevant in cases where a cell with high load and a cell with low load are neighbours. Here MLB uses automated algorithms and functions to avoid cell overloading and consequent degradation of performance. This is achieved by having the algorithms adjust parameters to balance the load between cells, these algorithms also prevent other issues that could arise in these situations e.g. ping pong handover. 
+Simply put, MLB tries to balance load relatively evenly between neighbouring cells, improve network capacity by regulating cell congestions and manage the network efficiently such that performance is as high as possible. 
+
+\subsection{Mobility Robustness Optimization (MRO)}
 
 \subsection{Minimization of Drive Tests (MDT)}
 
