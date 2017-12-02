@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: SON.aux
 The style file: ieeetr.bst
@@ -6,45 +6,45 @@ Database file #1: /home/frederik/Documents/bibtex/SON.bib.bib
 Warning--empty journal in Jamalipour2008
 Warning--empty publisher in Kakadia2017
 Warning--empty journal in Sartori2012
-You've used 5 entries,
+You've used 6 entries,
             1876 wiz_defined-function locations,
-            507 strings with 4147 characters,
-and the built_in function-call counts, 938 in all, are:
-= -- 84
-> -- 35
+            515 strings with 4307 characters,
+and the built_in function-call counts, 1278 in all, are:
+= -- 121
+> -- 46
 < -- 0
-+ -- 14
-- -- 9
-* -- 59
-:= -- 147
-add.period$ -- 6
-call.type$ -- 5
-change.case$ -- 4
++ -- 18
+- -- 12
+* -- 83
+:= -- 192
+add.period$ -- 7
+call.type$ -- 6
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 53
-empty$ -- 101
-format.name$ -- 9
-if$ -- 221
+cite$ -- 9
+duplicate$ -- 70
+empty$ -- 131
+format.name$ -- 12
+if$ -- 305
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 6
-newline$ -- 19
-num.names$ -- 5
-pop$ -- 24
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 22
+num.names$ -- 6
+pop$ -- 26
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 20
+skip$ -- 34
 stack$ -- 0
-substring$ -- 32
-swap$ -- 11
+substring$ -- 64
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 8
-width$ -- 6
-write$ -- 43
+while$ -- 12
+width$ -- 7
+write$ -- 53
 (There were 3 warnings)

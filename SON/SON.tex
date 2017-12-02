@@ -109,13 +109,11 @@
 \chapter{SON - Introduction and overview}
 \section{Introduction}
 This report will be taking a closer look at SON (Self-Organizing Networks) and what it means for the industry of telecommunications. 
-The features of SON aims to improve end user experience and reduce the costs entailed with providing a network, while still increasing the quality and effiency of the network. 
+The features of SON aims to improve end user experience and reduce the costs entailed with providing a network, while still increasing the quality and efficiency of the network. 
 These features, along with their impact will be explored later in the report 
 
 \section{Overview}
-All mobile networks need to be managed and as systems become more and more complex, the need for better and easier ways to manage them are important as ever. LTE (Long Term Evolution) is the newest technology and also the most complex. Therefore, in LTE, management needs to be as good as possible. SON (Self-Organizing Networks) is a very promising area for providers, as it makes network-management cheaper, more efficient and easier. This is also why SON is most prevalent in LTE networks, simply because the demands of LTE are much higher and therefore LTE networks are quite complex.\\
-
-The goal of SON is basically to reduce the need for technicians and increase the network capabilities, such that the network will be as good as possible in regards to coverage, capacity and user experience. Generally, SON has three main areas; self-configuration, self-optimization and self-healing. These will discussed in depth later. 
+All mobile networks need to be managed and as systems become more and more complex, the need for better and easier ways to manage them are important as ever. LTE (Long Term Evolution) is the newest technology and also the most complex. Therefore, in LTE, management needs to be as good as possible. SON (Self-Organizing Networks) is a very promising area for providers, as it makes network-management cheaper, more efficient and easier. This is also why SON is most prevalent in LTE networks, simply because the demands of LTE are much higher and therefore LTE networks are quite complex.\\ The goal of SON is basically to reduce the need for technicians and increase the network capabilities, such that the network will be as good as possible in regards to coverage, capacity and user experience. Generally, SON has three main areas; self-configuration, self-optimization and self-healing. These will discussed in depth later. 
 
 \section{Why SON?}
 The reasons for using SON are very obvious from a provider standpoint. First of all, the cost of a Self-Organizing Network should be much lower 
@@ -127,10 +125,49 @@ The reasons for using SON are very obvious from a provider standpoint. First of 
 The first area of SON is self-configuration. The main idea behind the self-configuration part of SON is to automate the setup of eNBs (eNodeB). This allows a plug and play type of setup, which saves the network owner a lot of time and money, since you would usually need a technician to setup new eNBs, which could take a lot of time.  
 The self-configuration also reduces the risk of incorrect installation and integration of eNBs into the existing network. The amount of needed cells is also rising with the increase in network usage.
 
+\subsection{Features of self-configuration}
+There are three main features of self-configuration in LTE; self-configuration of eNB, Automatic Neighbour Relations and automatic configuration of Physical Cell ID (PCI). 
+
+Another small but important feature of self-configuration is Dynamic Radio Configuration (DNC). 
+In order for the eNB to configure itself correctly, it will need to alter the planned data a little. This is done automatically by the eNB itself by performing measurements and thus adjusting initial power, antenna tilt etc. %citer http://www.radio-electronics.com/info/cellulartelecomms/self-organising-networks-son/self-configuration.php
+
+
 \subsection{Process of eNB self-configuration}
-The self-configuration process of a eNB starts with the new eNB receiving an IP address. It can now obtain the information of the self-configuration subsystem of operation and management. Next, the eNB will have a gateway configured, such that it will be able to communicate with other internet devices through the exchange of IP packets. \\
-Now, the eNB provides all of its details e.g. hardware, type etc., to the self-configuration subsystem to be authenticated. The self-configuration subsystem will then provide the necessary software and configuration data to the eNB and the eNB will configure itself accordingly. \\
-The eNB is now ready to connect to the operation and management system for management functions. Now S1 interface is established, meaning that the eNB is connected to the Evolved Packet Core Network. The X2 interface is also established by this point and the eNB is now connected to other eNBs in the network.
+
+%following section might be deleted
+As described above, an eNB will configure itself, and it will generally perform the following steps in order to be able to communicate:\\ The self-configuration process of a eNB starts with the new eNB receiving an IP address. It can now obtain the information of the self-configuration subsystem of operation and management. Next, the eNB will have a gateway configured, such that it will be able to communicate with other internet devices through the exchange of IP packets. \\
+Now, the eNB provides all of its details e.g. hardware, type etc., to the self-configuration subsystem to be authenticated. The self-configuration subsystem will then provide the necessary software and configuration data to the eNB and the eNB will configure itself accordingly. \\ The eNB is now ready to connect to the operation and management system for management functions. Now S1 interface is established, meaning that the eNB is connected to the Evolved Packet Core Network. The X2 interface is also established by this point and the eNB is now connected to other eNBs in the network.\cite{Feng2008} %EVT INKLUDER FIGUR 1 fra den citerede tekst
+%end of section
+\\ \\
+One of the key ideas of self-configuration is self-configuration of a new eNB trying to connect to the network. The eNB is in this case not connected to anything but the network management subsystem and Serving-Gateway (SGW). The following steps are performed in order to connect the new eNB to the network. 
+
+\begin{itemize}
+	\item First, the eNB is powered on and plugged in where necessary, then it will have an already 	established connection, which it will use until the radio frequency transmission is turned on.
+	\item The DNS/DHCP server will now provide an IP address to the eNB.
+	\item Now, the self-configuration subsystem of the of operation and management information is 		sent to the eNB. 
+	\item A gateway is now configured to the eNB such that it can now connect and communicate with other internet nodes through IP packets.
+	\item The eNB will provide its own information e.g. hardware, ID, supported technologies etc. to the self-configuration subsystem in order to get identified and authenticated. 
+	\item The eNB will now be able to download the correct software and radio-configuration information. 
+	\item After this download, the eNB configures itself according to the downloaded transport and radio configuration information. 
+	\item Now, the eNB can connect to the Operation Administration Management (OAM) for other management functions.
+	\item The S1 interface is then established, giving the eNB connection to the Evolved Packet Core Network (EPCN). The X2 interface is also established and the eNB is now connected to other eNBs in the network. \cite{Atayero2014}
+\end{itemize}
+
+\subsection{Automatic Neighbour Relations (ANR)}
+
+Automatic Neighbour Relation (ANR), is the process of managing the neighbour relations, such that the cells know who their neighbouring cells are and what technologies they support. It is crucial that this information is updated and correct, because otherwise handovers might fail and thereby result in dropped calls. If they neighbouring cells support different technologies e.g. one might support HSPA and its neighbour LTE, the user needs to know this so it know what frequencies to listen on. \\ Generally the ANR process looks a bit like this:
+
+\begin{itemize}
+	\item UE detects unknown PCI and reports it to the serving eNB by sending a Radio Resource Controller (RRC) reconfiguration message.
+	\item The serving eNB will now request the UE to send E-UTRAN Cell Global ID (ECGI) of the unknown eNB. The UE then does this by reading the BCCH. 
+	\item The serving eNB will now retrieve the IP address from the MME based on the ECGI of the unknown eNB. This allows the serving eNB to correctly setup the X2 interface, since that hasn't been done, because the unknown eNB is unknown. 
+	\item The functions will now be extended to cases of inter-Radio Access Technology (inter-RAT) and inter-frequency. 
+\end{itemize}
+
+\subsection{Automatic configuration of Physical Cell ID (PCI)}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	SELF-OPTIMIZATION\cite{•}
@@ -151,7 +188,6 @@ The eNB is now ready to connect to the operation and management system for manag
 \addcontentsline{toc}{chapter}{References}
 \bibliographystyle{ieeetr}
 \bibliography{/home/frederik/Documents/bibtex/SON.bib}
-\nocite{Feng2008} % remove these if you cite
 \nocite{Hamalainen2009} % remove these if you cite
 \nocite{Jamalipour2008} % remove these if you cite
 \nocite{Kakadia2017} % remove these if you cite
