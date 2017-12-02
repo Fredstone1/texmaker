@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  2 DEC 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  2 DEC 2017 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -639,18 +639,13 @@ Chapter 1.
 
 ]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 145.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 144.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 145.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 144.
  [3
 
 ] [4]
@@ -661,31 +656,39 @@ Chapter 3.
 Chapter 4.
 [6
 
-] (./SON.bbl) 
-AED: lastpage setting LastPage
+]
+Chapter 5.
 [7
 
+] (./SON.bbl) 
+AED: lastpage setting LastPage
+[8
 
-] (./SON.aux) ) 
+
+] (./SON.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4402 strings out of 494888
- 59760 string characters out of 6179709
+ 4406 strings out of 494888
+ 59840 string characters out of 6179709
  215031 words of memory out of 5000000
- 7617 multiletter control sequences out of 15000+600000
+ 7621 multiletter control sequences out of 15000+600000
  70756 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  41i,11n,43p,938b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf
-/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on SON.pdf (8 pages, 227501 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmsy10.pfb>
+Output written on SON.pdf (9 pages, 229619 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -125,7 +125,7 @@ The reasons for using SON are very obvious from a provider standpoint. First of 
 The first area of SON is self-configuration. The main idea behind the self-configuration part of SON is to automate the setup of eNBs (eNodeB). This allows a plug and play type of setup, which saves the network owner a lot of time and money, since you would usually need a technician to setup new eNBs, which could take a lot of time.  
 The self-configuration also reduces the risk of incorrect installation and integration of eNBs into the existing network. The amount of needed cells is also rising with the increase in network usage.
 
-\subsection{Features of self-configuration}
+\section{Features of self-configuration}
 There are three main features of self-configuration in LTE; self-configuration of eNB, Automatic Neighbour Relations and automatic configuration of Physical Cell ID (PCI). 
 
 Another small but important feature of self-configuration is Dynamic Radio Configuration (DNC). 
@@ -135,10 +135,9 @@ In order for the eNB to configure itself correctly, it will need to alter the pl
 \subsection{Process of eNB self-configuration}
 
 %following section might be deleted
-As described above, an eNB will configure itself, and it will generally perform the following steps in order to be able to communicate:\\ The self-configuration process of a eNB starts with the new eNB receiving an IP address. It can now obtain the information of the self-configuration subsystem of operation and management. Next, the eNB will have a gateway configured, such that it will be able to communicate with other internet devices through the exchange of IP packets. \\
-Now, the eNB provides all of its details e.g. hardware, type etc., to the self-configuration subsystem to be authenticated. The self-configuration subsystem will then provide the necessary software and configuration data to the eNB and the eNB will configure itself accordingly. \\ The eNB is now ready to connect to the operation and management system for management functions. Now S1 interface is established, meaning that the eNB is connected to the Evolved Packet Core Network. The X2 interface is also established by this point and the eNB is now connected to other eNBs in the network.\cite{Feng2008} %EVT INKLUDER FIGUR 1 fra den citerede tekst
+%As described above, an eNB will configure itself, and it will generally perform the following steps in order to be able to communicate:\\ The self-configuration process of a eNB starts with the new eNB receiving an IP address. It can now obtain the information of the self-configuration subsystem of operation and management. Next, the eNB will have a gateway configured, such that it will be able to communicate with other internet devices through the exchange of IP packets. \\
+%Now, the eNB provides all of its details e.g. hardware, type etc., to the self-configuration subsystem to be authenticated. The self-configuration subsystem will then provide the necessary software and configuration data to the eNB and the eNB will configure itself accordingly. \\ The eNB is now ready to connect to the operation and management system for management functions. Now S1 interface is established, meaning that the eNB is connected to the Evolved Packet Core Network. The X2 interface is also established by this point and the eNB is now connected to other eNBs in the network.\cite{Feng2008} %EVT INKLUDER FIGUR 1 fra den citerede tekst
 %end of section
-\\ \\
 One of the key ideas of self-configuration is self-configuration of a new eNB trying to connect to the network. The eNB is in this case not connected to anything but the network management subsystem and Serving-Gateway (SGW). The following steps are performed in order to connect the new eNB to the network. 
 
 \begin{itemize}
@@ -155,30 +154,54 @@ One of the key ideas of self-configuration is self-configuration of a new eNB tr
 
 \subsection{Automatic Neighbour Relations (ANR)}
 
-Automatic Neighbour Relation (ANR), is the process of managing the neighbour relations, such that the cells know who their neighbouring cells are and what technologies they support. It is crucial that this information is updated and correct, because otherwise handovers might fail and thereby result in dropped calls. If they neighbouring cells support different technologies e.g. one might support HSPA and its neighbour LTE, the user needs to know this so it know what frequencies to listen on. \\ Generally the ANR process looks a bit like this:
+Automatic Neighbour Relation (ANR), is the process of managing the neighbour relations, such that the cells know who their neighbouring cells are and what technologies they support. It is crucial that this information is updated and is correct, otherwise handovers might fail and thereby result in dropped calls. If the neighbouring cells support different technologies e.g. one might support HSPA and its neighbour LTE, the user needs to know this so it know what frequencies to listen on. \\ Generally the ANR process looks a bit like this:
 
 \begin{itemize}
 	\item UE detects unknown PCI and reports it to the serving eNB by sending a Radio Resource Controller (RRC) reconfiguration message.
 	\item The serving eNB will now request the UE to send E-UTRAN Cell Global ID (ECGI) of the unknown eNB. The UE then does this by reading the BCCH. 
 	\item The serving eNB will now retrieve the IP address from the MME based on the ECGI of the unknown eNB. This allows the serving eNB to correctly setup the X2 interface, since that hasn't been done, because the unknown eNB is unknown. 
-	\item The functions will now be extended to cases of inter-Radio Access Technology (inter-RAT) and inter-frequency. 
+	\item The functions will now be extended to cases of inter-Radio Access Technology (inter-RAT) and inter-frequency. \cite{Atayero2014}
 \end{itemize}
 
 \subsection{Automatic configuration of Physical Cell ID (PCI)}
-
-
+Every cell in the network will have its own PCI, which is in the SCH, to be used when synchronizing with UE on downlink. In the E-UTRAN there are only 504 PCIs, therefore they have to be reused, however they need to be unique within specific regions. There are two rules which has to be obeyed when configuring PCIs: 
+Neighbouring cells must not share PCI. 
+All neighbours of one cell must have different PCIs. \cite{Feng2008}
 
 
 %----------------------------------------------------------------------------------------
-%	SELF-OPTIMIZATION\cite{•}
+%	SELF-OPTIMIZATION
 %----------------------------------------------------------------------------------------
 \chapter{Self-optimization}
+\section{Main idea and overview}
 
+\section{Features of self-optimization}
 
+\subsection{Mobility Robustness Optimization (MRO)}
+
+\subsection{Mobility Load Balancing (MLB)}
+
+\subsection{Minimization of Drive Tests (MDT)}
+
+\subsubsection{MDT Management and Reporting}
+
+\subsection{Energy Savings}
+
+\subsection{Coverage and Capacity Optimization}
+
+\subsection{RACH optimization}
 %----------------------------------------------------------------------------------------
 %	SELF-HEALING
 %----------------------------------------------------------------------------------------
 \chapter{Self-healing}
+
+
+%----------------------------------------------------------------------------------------
+%	Conclusion and summary
+%----------------------------------------------------------------------------------------
+\chapter{Conclusion}
+
+
 
 
 %----------------------------------------------------------------------------------------
