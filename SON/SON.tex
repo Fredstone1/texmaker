@@ -181,13 +181,41 @@ There are several important features of self-optimization, which all contribute 
 
 \subsection{Mobility Load Balancing (MLB)}
 Mobile Load Balancing (MLB) is especially relevant in cases where a cell with high load and a cell with low load are neighbours. Here MLB uses automated algorithms and functions to avoid cell overloading and consequent degradation of performance. This is achieved by having the algorithms adjust parameters to balance the load between cells, these algorithms also prevent other issues that could arise in these situations e.g. ping pong handover. 
-Simply put, MLB tries to balance load relatively evenly between neighbouring cells, improve network capacity by regulating cell congestions and manage the network efficiently such that performance is as high as possible. 
+Simply put, MLB in eNBs tries to balance load relatively evenly between neighbouring cells, improve network capacity by regulating cell congestions and manage the network efficiently such that performance is as high as possible.
+MLB consists of three main parts when used between cells; load reporting, load balancing action and amending mobility configuration.
+Here is an example of how MLB could work:
+\begin{itemize}
+	\item eNB A detects that it is being overloaded
+	\item eNB A sends a Resource Status Request to its neighbour eNB B
+	\item eNB B answers with a Resource Status response
+	\item eNB B sends a Resource Status Update
+	\item eNB A will now find suitable UEs to handover to eNB B
+	\item Now the handover procedure begins
+	\item eNB A sends a Mobility Change Request to eNB B (to change eNB As range)
+	\item eNB B answers with a Mobility Change ACK
+	\item both eNBs now updates their handover settings to ensure that the UEs won't go back to the previously overloaded eNB A
+\end{itemize}
 
 \subsection{Mobility Robustness Optimization (MRO)}
+Mobility Robustness Optimization (MRO) is mainly used to guarantee good mobility for UE and thereby giving the end-users a good experience. Furthermore, it is used to ensure that handovers are as seamless as possible. Previously, a network operator would have to manually adjust handover parameters in cells, which is very costly, MRO automates this process, meaning lower costs for the network operator and better experience for the end-user. \\ It is important to mention that call re-establishment is only possible in LTE, so if the target cell only supports different Radio Access Technologies (RATs), it will not be possible to restore the connection. 
+Another thing that MRO tries to do is minimizing handover ping pong. While ping pong does not lead to RLF, it is however, an inefficient use of resources and could reduce the users throughput. 
+
+\subsubsection{Backward Handover}
+Backward handover occurs when handover information is exchanged between the eNB and the UE on the old radio path, instead of the new radio path between the target eNB and the UE. Then the old eNB, also called source eNB, prepares the target eNB for handover. So, in backward handover, it is the network that perform cell switching and notifies the UE of the target eNB. 
+Backward handover is used when the Radio Frequency conditions are declining.
+
+\subsubsection{Radio Link Failure (RLF) handover}
+The way MRO achieves all this is by minimizing call drops and RLF. Sometimes a connection can be restored after a RLF but before the call is dropped. This is known as RLF handover, and occurs when a backward handover partially fails. The process of RLF handover looks a bit like this: 
+\begin{itemize}
+	\item UE detects radio link problems and starts its RLF timer.
+	\item RLF timer expires and the UE now searches for a new target eNB and it now attempts to re-establish the connection with the new eNB. This is all done while the UE is in a connected state. 
+	\item The connection is restored if the UE managed to send a measurement report to the old eNB, such that the target eNB could be prepared.  %citer qualcomm whitepaper
+\end{itemize}
+It should be noted that no data is lost in this procedure due to the eNB forwarding all data contained in its buffer. 
+Sometimes, the mobility problems are so severe that the call is dropped. 
 
 \subsection{Minimization of Drive Tests (MDT)}
-
-\subsubsection{MDT Management and Reporting}
+Testing is very important for network operators, as it helps to collect statistics about the network. A lot of the testing done on the the network is drive tests, which consists of sending out engineers in a car, then they drive around and test the network in different areas. This requires a lot of special tools, it also takes a long time and is quite costly. Therefore, MDT is very important to network operators. The idea behind MDT is to use the UEs to measure and log information along with location, just like the drive tests. Because of the amount of users and their different behaviour this method of testing would be very thorough, and would give the network operators an exact view of what their customers are experiencing. The main use of MDT would be to optimize network coverage e.g. by detecting network "holes". 
 
 \subsection{Energy Savings}
 
