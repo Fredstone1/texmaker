@@ -16,9 +16,9 @@
 \contentsline {subsubsection}{Backward Handover}{6}
 \contentsline {subsubsection}{Radio Link Failure (RLF) handover}{6}
 \contentsline {subsection}{\numberline {3.2.3}Minimization of Drive Tests (MDT)}{6}
-\contentsline {subsection}{\numberline {3.2.4}Energy Savings}{7}
-\contentsline {subsection}{\numberline {3.2.5}Coverage and Capacity Optimization}{7}
-\contentsline {subsection}{\numberline {3.2.6}RACH optimization}{7}
-\contentsline {chapter}{\numberline {4}Self-healing}{8}
-\contentsline {chapter}{\numberline {5}Conclusion}{9}
-\contentsline {chapter}{References}{10}
+\contentsline {subsection}{\numberline {3.2.4}Energy Savings}{6}
+\contentsline {subsection}{\numberline {3.2.5}Coverage and Capacity Optimization}{6}
+\contentsline {subsection}{\numberline {3.2.6}RACH optimization}{6}
+\contentsline {chapter}{\numberline {4}Self-healing}{7}
+\contentsline {chapter}{\numberline {5}Conclusion}{8}
+\contentsline {chapter}{References}{9}

@@ -16,13 +16,12 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 % Margins
-\topmargin=-0.45in
+\topmargin=-.45in
 \evensidemargin=0in
 \oddsidemargin=0in
 \textwidth=6.5in
 \textheight=9.0in
 \headsep=0.25in
-
 \linespread{1.1} % Line spacing
 
 % Set up the header and footer
@@ -49,16 +48,19 @@
 %----------------------------------------------------------------------------------------
 \definecolor{RoyalRed}{RGB}{157,16, 45}
 \titleformat{\chapter}[display]
-  { \normalsize \huge  \color{black}}
-  {\flushright \normalsize \color{RoyalRed} \MakeUppercase { \chaptertitlename \hspace{1 ex} }  { \fontsize{60}{60}\selectfont \color{RoyalRed} \thechapter }} {10 pt}{\bfseries\huge} 
+  {\normalsize \huge \color{black}}
+  {\flushright \normalsize \color{RoyalRed} \MakeUppercase { \hspace{1 ex}}  { \fontsize{70}{70}\selectfont \color{RoyalRed} \thechapter}} {-29 pt}{\bfseries\huge}
+  \titlespacing*{\chapter}{0pt}{-35pt}{20pt}
+  
 
+% you can add \chaptertitlename before hspace
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CLASS SECTION
 %----------------------------------------------------------------------------------------
 
 \newcommand{\hmwkTitle}{SON - Self-Organizing Networks } % Assignment title
-\newcommand{\hmwkDueDate}{Friday,\ December\ 8,\ 2017} % Due date
+\newcommand{\hmwkDueDate}{Saturday,\ December\ 9,\ 2017} % Due date
 \newcommand{\hmwkClass}{Introduction to mobile communication -\ 34330 \\} % Course/class
 \newcommand{\hmwkClassTime}{Department of Photonics Engineering} % Kursusansvarlig profession
 \newcommand{\hmwkClassInstructor}{Henrik Lehrmann Christiansen,} % Teacher/lecturer
