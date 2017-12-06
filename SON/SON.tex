@@ -14,6 +14,7 @@
 \usepackage{listings} % Required for insertion of code
 \usepackage{courier} % Required for the courier font
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[section]{placeins} %when placing img
 
 % Margins
 \topmargin=-.45in
@@ -129,17 +130,11 @@ The self-configuration also reduces the risk of incorrect installation and integ
 
 \section{Features of self-configuration}
 There are three main features of self-configuration in LTE; self-configuration of eNB, Automatic Neighbour Relations and automatic configuration of Physical Cell ID (PCI). 
-
 Another small but important feature of self-configuration is Dynamic Radio Configuration (DNC). 
 In order for the eNB to configure itself correctly, it will need to alter the planned data a little. This is done automatically by the eNB itself by performing measurements and thus adjusting initial power, antenna tilt etc. %citer http://www.radio-electronics.com/info/cellulartelecomms/self-organising-networks-son/self-configuration.php
 
-
 \subsection{Process of eNB self-configuration}
 
-%following section might be deleted
-%As described above, an eNB will configure itself, and it will generally perform the following steps in order to be able to communicate:\\ The self-configuration process of a eNB starts with the new eNB receiving an IP address. It can now obtain the information of the self-configuration subsystem of operation and management. Next, the eNB will have a gateway configured, such that it will be able to communicate with other internet devices through the exchange of IP packets. \\
-%Now, the eNB provides all of its details e.g. hardware, type etc., to the self-configuration subsystem to be authenticated. The self-configuration subsystem will then provide the necessary software and configuration data to the eNB and the eNB will configure itself accordingly. \\ The eNB is now ready to connect to the operation and management system for management functions. Now S1 interface is established, meaning that the eNB is connected to the Evolved Packet Core Network. The X2 interface is also established by this point and the eNB is now connected to other eNBs in the network.\cite{Feng2008} %EVT INKLUDER FIGUR 1 fra den citerede tekst
-%end of section
 One of the key ideas of self-configuration is self-configuration of a new eNB trying to connect to the network. The eNB is in this case not connected to anything but the network management subsystem and Serving-Gateway (SGW). The following steps are performed in order to connect the new eNB to the network. 
 
 \begin{itemize}
@@ -195,23 +190,23 @@ Here is an example of how MLB could work:
 	\item Now the handover procedure begins
 	\item eNB A sends a Mobility Change Request to eNB B (to change eNB As range)
 	\item eNB B answers with a Mobility Change ACK
-	\item both eNBs now updates their handover settings to ensure that the UEs won't go back to the previously overloaded eNB A
+	\item both eNBs now updates their handover settings to ensure that the UEs won't go back to the previously overloaded eNB A \cite{Sartori2012}
 \end{itemize}
 
 \subsection{Mobility Robustness Optimization (MRO)}
 Mobility Robustness Optimization (MRO) is mainly used to guarantee good mobility for UE and thereby giving the end-users a good experience. Furthermore, it is used to ensure that handovers are as seamless as possible. Previously, a network operator would have to manually adjust handover parameters in cells, which is very costly, MRO automates this process, meaning lower costs for the network operator and better experience for the end-user. \\ It is important to mention that call re-establishment is only possible in LTE, so if the target cell only supports different Radio Access Technologies (RATs), it will not be possible to restore the connection. 
-Another thing that MRO tries to do is minimizing handover ping pong. While ping pong does not lead to RLF, it is however, an inefficient use of resources and could reduce the users throughput. 
+Another thing that MRO tries to do is minimizing handover ping pong. While ping pong does not lead to RLF, it is however, an inefficient use of resources and could reduce the users throughput. \cite{Sartori2012}
 
 \subsubsection{Backward Handover}
 Backward handover occurs when handover information is exchanged between the eNB and the UE on the old radio path, instead of the new radio path between the target eNB and the UE. Then the old eNB, also called source eNB, prepares the target eNB for handover. So, in backward handover, it is the network that perform cell switching and notifies the UE of the target eNB. 
-Backward handover is used when the Radio Frequency conditions are declining.
+Backward handover is used when the Radio Frequency conditions are declining. \cite{Qualcomm2010}
 
 \subsubsection{Radio Link Failure (RLF) handover}
 The way MRO achieves all this is by minimizing call drops and RLF. Sometimes a connection can be restored after a RLF but before the call is dropped. This is known as RLF handover, and occurs when a backward handover partially fails. The process of RLF handover looks a bit like this: 
 \begin{itemize}
 	\item UE detects radio link problems and starts its RLF timer.
 	\item RLF timer expires and the UE now searches for a new target eNB and it now attempts to re-establish the connection with the new eNB. This is all done while the UE is in a connected state. 
-	\item The connection is restored if the UE managed to send a measurement report to the old eNB, such that the target eNB could be prepared.  %citer qualcomm whitepaper
+	\item The connection is restored if the UE managed to send a measurement report to the old eNB, such that the target eNB could be prepared.\cite{Qualcomm2010}  %citer qualcomm whitepaper
 \end{itemize}
 It should be noted that no data is lost in this procedure due to the eNB forwarding all data contained in its buffer. 
 Sometimes, the mobility problems are so severe that the call is dropped. 
@@ -220,10 +215,34 @@ Sometimes, the mobility problems are so severe that the call is dropped.
 Testing is very important for network operators, as it helps to collect statistics about the network. A lot of the testing done on the the network is drive tests, which consists of sending out engineers in a car, then they drive around and test the network in different areas. This requires a lot of special tools, it also takes a long time and is quite costly. Therefore, MDT is very important to network operators. The idea behind MDT is to use the UEs to measure and log information along with location, just like the drive tests. Because of the amount of users and their different behaviour this method of testing would be very thorough, and would give the network operators an exact view of what their customers are experiencing. The main use of MDT would be to optimize network coverage e.g. by detecting network "holes". 
 
 \subsection{Energy Savings}
+Another promising area of self-optimization is energy savings. By reducing power consumption, a network operator can save money and be less taxing on the environment. In SON networks, energy consumption can be reduced both in the UE and inside the network, however, this report will focus on the energy savings that can be made within the network.
 
-\subsection{Coverage and Capacity Optimization}
+\subsubsection{Dynamic cell activation}
+In SON, it is possible to dynamically activate and deactivate cells, based on their load, such that you can save power by having low-loaded cells turned off. 
+The process can be implemented by letting the MME manage the activation of these cells. This works by having the UE inform the MME, when it is moving close to a cell. \\ The MME would now turn on the cell and when the UE gets within range, it will connect to the cell. When the UE then moves out of the cell, and there is not any other devices connected, the UE will send a message to the MME and the MME will then be able to turn off the cell, thus saving power. \\ Of course, when doing this, one would have to expand coverage of other cells such that coverage is not reduced. \cite{Feng2008}
+
+\subsubsection{Transmission power management}
+Based on UE measurements, the transmission power of an eNB can be adjusted, such that it is never using more power than necessary. This needs to be coordinated with load balancing and the general coverage of the network, such that there is not coverage "holes" and cells don't become overloaded because another cell is transmitting with less power. \cite{Feng2008}
+
+\subsection{Coverage and Capacity Optimization (CCO)}
+Coverage and Capacity Optimization is used to make sure that the network is performing as intended i.e. making sure that the coverage and capacity is on par with the targets set by the operator. The CCO algorithm finds the optimal antenna configuration and radio frequency settings.
+The dilemma CCO faces is coverage vs. capacity, since it is not possible to optimize for both, it has to carefully balance the two, such that the network is working as optimal as possible. If it only focused on capacity, users would experience coverage "holes" and if it focused only on coverage, the capacity might be too slow for a satisfying user experience. 
+CCO gets better as time goes on since it constantly gathers data on the network. 
+
+\subsection{Inter-Cell Interference Coordination (ICIC)}
+In LTE networks interference between cells is not uncommon. This leads to poor signal quality, if not dealt with properly. One way of handling it is by using an Inter-Cell Interference Coordination algorithm. \\ This kind of algorithm aims to reduce inter-cell interference so that  radio signal quality will be as high as possible. This is done by giving all cells in area information about the other cells in that same area, so they can calculate what frequencies to use. This coordination happens in each of the cells. The process will be a bit like this: 
+First, a cell will collect information about other cells and store that in its Neighbour Relation Table (NRT), then it will assign itself a frequency, which it will attempt to use, the frequency should not already be in use nearby. \\ Now, the cells will use ICIC to optimize their small local area, in which interference could be a problem. The algorithm will calculate the optimal frequency for each cell in the local area and assign them accordingly. \\ When the aforementioned happens, it can at times lead to ping-pong behaviour, where the cells will switch between two or more frequencies. However, the algorithm will then detect this behaviour and choose an arrangement that will break this "loop". \cite{Karla2010} \\ A small area network using ICIC could something like the one pictured on figure 3.1, where the colours represent different frequencies. In the first case, we see interference where the two cells coverage meet, but when using ICIC (on the right) we see that there are two different frequencies in the edge cases, which minimizes interference.
+\newpage
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[scale=0.4]{/home/frederik/Pictures/hejhej.png}
+	\caption{Example of ICIC in LTE \cite{Henrik}}
+\end{figure}
+
 
 \subsection{RACH optimization}
+hejhejeh
 %----------------------------------------------------------------------------------------
 %	SELF-HEALING
 %----------------------------------------------------------------------------------------
@@ -245,9 +264,4 @@ Testing is very important for network operators, as it helps to collect statisti
 \addcontentsline{toc}{chapter}{References}
 \bibliographystyle{ieeetr}
 \bibliography{/home/frederik/Documents/bibtex/SON.bib}
-\nocite{Hamalainen2009} % remove these if you cite
-\nocite{Jamalipour2008} % remove these if you cite
-\nocite{Kakadia2017} % remove these if you cite
-\nocite{Sartori2012} % remove these if you cite
-
 \end{document}

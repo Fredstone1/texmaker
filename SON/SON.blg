@@ -3,48 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: SON.aux
 The style file: ieeetr.bst
 Database file #1: /home/frederik/Documents/bibtex/SON.bib.bib
-Warning--empty journal in Jamalipour2008
-Warning--empty publisher in Kakadia2017
 Warning--empty journal in Sartori2012
+Warning--empty journal in Henrik
 You've used 6 entries,
             1876 wiz_defined-function locations,
-            515 strings with 4307 characters,
-and the built_in function-call counts, 1278 in all, are:
-= -- 121
-> -- 46
+            521 strings with 4329 characters,
+and the built_in function-call counts, 1630 in all, are:
+= -- 175
+> -- 39
 < -- 0
-+ -- 18
-- -- 12
-* -- 83
-:= -- 192
-add.period$ -- 7
++ -- 16
+- -- 10
+* -- 110
+:= -- 229
+add.period$ -- 6
 call.type$ -- 6
-change.case$ -- 5
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 70
-empty$ -- 131
-format.name$ -- 12
-if$ -- 305
+cite$ -- 8
+duplicate$ -- 86
+empty$ -- 157
+format.name$ -- 10
+if$ -- 398
 int.to.chr$ -- 0
 int.to.str$ -- 6
-missing$ -- 7
-newline$ -- 22
+missing$ -- 6
+newline$ -- 21
 num.names$ -- 6
-pop$ -- 26
+pop$ -- 16
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 34
+skip$ -- 61
 stack$ -- 0
-substring$ -- 64
-swap$ -- 20
+substring$ -- 131
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 12
+warning$ -- 2
+while$ -- 21
 width$ -- 7
-write$ -- 53
-(There were 3 warnings)
+write$ -- 60
+(There were 2 warnings)

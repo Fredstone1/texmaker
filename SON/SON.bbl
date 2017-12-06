@@ -8,19 +8,22 @@ A.~A. Atayero, O.~I. Adu, and A.~A. Alatishe, ``{LNCS 8583 - Self Organizing
 S.~Feng and E.~Seidel, ``{Self-organizing networks (SON) in 3GPP long term
   evolution},'' {\em Nomor Research GmbH, White Paper}, no.~May, 2008.
 
-\bibitem{Hamalainen2009}
-S.~H{\"{a}}m{\"{a}}l{\"{a}}inen, ``{Self-organizing networks in 3GPP LTE},''
-  {\em IEEE Vehicular Technology Conference}, 2009.
-
-\bibitem{Jamalipour2008}
-A.~Jamalipour, ``{Self organizing networks},'' no.~December, 2008.
-
-\bibitem{Kakadia2017}
-D.~Kakadia, J.~Yang, and A.~Gilgur, {\em {Self Organizing Networks ( SON )}}.
-\newblock 2017.
-
 \bibitem{Sartori2012}
 C.~Sartori and H.~Holma, ``{Self-Organizing Networks (SON)},'' pp.~135--152,
   2012.
+
+\bibitem{Qualcomm2010}
+Qualcomm, ``{LTE Mobility Enhancements},'' {\em White Paper}, no.~February,
+  pp.~2--4, 2010.
+
+\bibitem{Karla2010}
+I.~Karla, ``{Distributed algorithm for self organizing LTE interference
+  coordination},'' {\em Lecture Notes of the Institute for Computer Sciences,
+  Social-Informatics and Telecommunications Engineering}, vol.~32 LNICST,
+  no.~Icic, pp.~119--128, 2010.
+
+\bibitem{Henrik}
+H.~L. Christiansen, ``{34330 Introduction to mobile communication Fall 2017 LTE
+  II},'' vol.~13, no.~and 14, pp.~1--21, 2017.
 
 \end{thebibliography}

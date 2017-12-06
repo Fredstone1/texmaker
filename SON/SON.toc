@@ -17,8 +17,11 @@
 \contentsline {subsubsection}{Radio Link Failure (RLF) handover}{6}
 \contentsline {subsection}{\numberline {3.2.3}Minimization of Drive Tests (MDT)}{6}
 \contentsline {subsection}{\numberline {3.2.4}Energy Savings}{6}
-\contentsline {subsection}{\numberline {3.2.5}Coverage and Capacity Optimization}{6}
-\contentsline {subsection}{\numberline {3.2.6}RACH optimization}{6}
-\contentsline {chapter}{\numberline {4}Self-healing}{7}
-\contentsline {chapter}{\numberline {5}Conclusion}{8}
-\contentsline {chapter}{References}{9}
+\contentsline {subsubsection}{Dynamic cell activation}{7}
+\contentsline {subsubsection}{Transmission power management}{7}
+\contentsline {subsection}{\numberline {3.2.5}Coverage and Capacity Optimization (CCO)}{7}
+\contentsline {subsection}{\numberline {3.2.6}Inter-Cell Interference Coordination (ICIC)}{7}
+\contentsline {subsection}{\numberline {3.2.7}RACH optimization}{8}
+\contentsline {chapter}{\numberline {4}Self-healing}{9}
+\contentsline {chapter}{\numberline {5}Conclusion}{10}
+\contentsline {chapter}{References}{11}
