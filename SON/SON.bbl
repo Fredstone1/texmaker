@@ -4,9 +4,18 @@
 A.~A. Atayero, O.~I. Adu, and A.~A. Alatishe, ``{LNCS 8583 - Self Organizing
   Networks for 3GPP LTE},'' {\em Lncs}, vol.~8583, pp.~242--254, 2014.
 
+\bibitem{Roessler}
+A.~Roessler, ``{testing ANR functionality on your LTE devices},'' 2013.
+\newblock available at
+  http://www.electronicdesign.com/test-amp-measurement/test-anr-functionality-your-lte-devices.
+
 \bibitem{Feng2008}
 S.~Feng and E.~Seidel, ``{Self-organizing networks (SON) in 3GPP long term
   evolution},'' {\em Nomor Research GmbH, White Paper}, no.~May, 2008.
+
+\bibitem{Hahn2014}
+S.~Hahn, D.~M. Rose, and T.~K{\"{u}}rner, ``{Mobility Load Balancing – A Case
+  Study : Simplified vs . Realistic Scenarios},'' {\em Euro-Cost}, p.~2, 2014.
 
 \bibitem{Sartori2012}
 C.~Sartori and H.~Holma, ``{Self-Organizing Networks (SON)},'' pp.~135--152,
@@ -25,5 +34,10 @@ I.~Karla, ``{Distributed algorithm for self organizing LTE interference
 \bibitem{Henrik}
 H.~L. Christiansen, ``{34330 Introduction to mobile communication Fall 2017 LTE
   II},'' vol.~13, no.~and 14, pp.~1--21, 2017.
+
+\bibitem{snov}
+S.~Nov, V.~Wille, O.~Yilmaz, and H.~Sanneck, ``{Self-Healing},'' in {\em LTE
+  Self-Organising Networks (SON): Network Management Automation for Operational
+  Efficiency}, ch.~6, pp.~235--266, 2012.
 
 \end{thebibliography}

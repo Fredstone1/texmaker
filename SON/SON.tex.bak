@@ -281,10 +281,11 @@ There are several functions that an operator might use to detect cell degradatio
 One of the methods to detect cell degradation is using counters in eNB software to keep track of issues, this could be a fault counter that counts when a major fault happens inn the cell. If these counters get too high, the network operator might consider solving the underlying issues.
 \subsubsection{Key Performance Indicators (KPI)}
 KPI utilizes the counters in order to calculate the relative performance of a cell. Key Quality Indicators (KQI) uses KPIs to give an broader overview of network performance. It is from these parameters that a network operator decides to fix issues. 
-There are several performance indicators which are used to calculate KPI and KQI. These might come from many different sources including: eNBs, UEs, neighbour eNBs etc. 
 \subsubsection{Alarms}
-Alarms are set to trigger if certain events happen e.g. cell outage, power loss etc. This way the operator quickly knows if something is wrong. Often the alarms are triggered by critical events that might result in severe network performance.  \cite{snov}
+Alarms are set to trigger if certain events happen e.g. cell outage, power loss etc. This way the operator quickly knows if something is wrong. Often the alarms are triggered by critical events that might result in severe network performance. 
 
+\subsection{Performance indicators}
+There are several performance indicators which are used to calculate KPI and KQI. These might come from many different sources including: eNBs, UEs, neighbour eNBs etc. \cite{snov}
 %----------------------------------------------------------------------------------------
 %	LTE releases
 %----------------------------------------------------------------------------------------

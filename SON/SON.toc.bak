@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {3.2.5}Coverage and Capacity Optimization (CCO)}{7}
 \contentsline {subsection}{\numberline {3.2.6}Inter-Cell Interference Coordination (ICIC)}{7}
 \contentsline {subsection}{\numberline {3.2.7}RACH optimization}{8}
-\contentsline {chapter}{\numberline {4}Self-healing}{9}
+\contentsline {chapter}{\numberline {4}Self healing}{9}
 \contentsline {section}{\numberline {4.1}Main idea and overview}{9}
 \contentsline {section}{\numberline {4.2}Features of self-healing}{9}
 \contentsline {subsection}{\numberline {4.2.1}Cell Outage Detection and Compensation}{9}
@@ -30,6 +30,7 @@
 \contentsline {subsubsection}{Counters}{9}
 \contentsline {subsubsection}{Key Performance Indicators (KPI)}{10}
 \contentsline {subsubsection}{Alarms}{10}
+\contentsline {subsection}{\numberline {4.2.3}Performance indicators}{10}
 \contentsline {chapter}{\numberline {5}SON features in LTE releases}{11}
 \contentsline {subsection}{\numberline {5.0.1}LTE release 8}{11}
 \contentsline {subsection}{\numberline {5.0.2}LTE release 9}{11}
