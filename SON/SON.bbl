@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Atayero2014}
 A.~A. Atayero, O.~I. Adu, and A.~A. Alatishe, ``{LNCS 8583 - Self Organizing
@@ -39,5 +39,9 @@ H.~L. Christiansen, ``{34330 Introduction to mobile communication Fall 2017 LTE
 S.~Nov, V.~Wille, O.~Yilmaz, and H.~Sanneck, ``{Self-Healing},'' in {\em LTE
   Self-Organising Networks (SON): Network Management Automation for Operational
   Efficiency}, ch.~6, pp.~235--266, 2012.
+
+\bibitem{3gpp}
+3GPP, ``{3GPP - Releases},'' 2017.
+\newblock http://www.3gpp.org/specifications/67-releases.
 
 \end{thebibliography}

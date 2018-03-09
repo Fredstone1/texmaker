@@ -228,7 +228,7 @@ It should be noted that no data is lost in this procedure due to the eNB forward
 Sometimes, the mobility problems are so severe that the call is dropped. 
 
 \subsection{Minimization of Drive Tests (MDT)}
-Testing is very important for network operators, as it helps to collect statistics about the network. A lot of the testing done on the the network is drive tests, which consists of sending out engineers in a car, then they drive around and test the network in different areas. This requires a lot of special tools, it also takes a long time and is quite costly. Therefore, MDT is very important to network operators. The idea behind MDT is to use the UEs to measure and log information along with location, just like the drive tests. Because of the amount of users and their different behaviour this method of testing would be very thorough, and would give the network operators an exact view of what their customers are experiencing. The main use of MDT would be to optimize network coverage e.g. by detecting network "holes". 
+Testing is very important for network operators, as it helps to collect statistics about the network. A lot of the testing done on the the network is drive tests, which consists of sending out engineers in a car, then they drive around and test the network in different areas. This requires a lot of special tools, it also takes a long time and is quite costly. Therefore, MDT is very important to network operators. The idea behind MDT is to use the UEs to measure and log information along with location, just like the drive tests. Because of the amount of users and their different behaviour this method of testing would be very thorough, and would give the network operators an exact view of what their customers are experiencing. The main use of MDT would be to optimize network coverage e.g. by detecting network "holes". \cite{Sartori2012}
 
 \subsection{Energy Savings}
 Another promising area of self-optimization is energy savings. By reducing power consumption, a network operator can save money and be less taxing on the environment. In SON networks, energy consumption can be reduced both in the UE and inside the network, however, this report will focus on the energy savings that can be made within the network.
@@ -281,11 +281,10 @@ There are several functions that an operator might use to detect cell degradatio
 One of the methods to detect cell degradation is using counters in eNB software to keep track of issues, this could be a fault counter that counts when a major fault happens inn the cell. If these counters get too high, the network operator might consider solving the underlying issues.
 \subsubsection{Key Performance Indicators (KPI)}
 KPI utilizes the counters in order to calculate the relative performance of a cell. Key Quality Indicators (KQI) uses KPIs to give an broader overview of network performance. It is from these parameters that a network operator decides to fix issues. 
+There are several performance indicators which are used to calculate KPI and KQI. These might come from many different sources including: eNBs, UEs, neighbour eNBs etc. 
 \subsubsection{Alarms}
-Alarms are set to trigger if certain events happen e.g. cell outage, power loss etc. This way the operator quickly knows if something is wrong. Often the alarms are triggered by critical events that might result in severe network performance. 
+Alarms are set to trigger if certain events happen e.g. cell outage, power loss etc. This way the operator quickly knows if something is wrong. Often the alarms are triggered by critical events that might result in severe network performance.  \cite{snov}
 
-\subsection{Performance indicators}
-There are several performance indicators which are used to calculate KPI and KQI. These might come from many different sources including: eNBs, UEs, neighbour eNBs etc. \cite{snov}
 %----------------------------------------------------------------------------------------
 %	LTE releases
 %----------------------------------------------------------------------------------------
@@ -298,7 +297,7 @@ Release 9 (2008) was an improvement to release 8, and therefore many of the thin
 \subsection{LTE release 10}
 Release 10 included further enhancements to the features already present from release 8 and 9. Cell Outage Detection, enhanced ICIC (eICIC) and minimization of drive testing were main parts of release 10. 
 \subsection{LTE release 11}
-LTE release 11 included even further enhancements to MRO and energy savings. Inter-RAT energy saving management was also introduced.\cite{Atayero2014}
+LTE release 11 included even further enhancements to MRO and energy savings. Inter-RAT energy saving management was also introduced.\cite{Atayero2014} \cite{3gpp}
 
 %----------------------------------------------------------------------------------------
 %	Conclusion 

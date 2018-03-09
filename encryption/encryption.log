@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  17 DEC 2017 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  12 JAN 2018 13:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SON.tex
-(./SON.tex
+**encryption.tex
+(./encryption.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 5 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -489,8 +489,8 @@ Package: placeins 2005/04/18  v 2.2
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./SON.aux)
-\openout1 = `SON.aux'.
+) (./encryption.aux)
+\openout1 = `encryption.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -627,104 +627,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./dtulogo.png> <./dtufoote
-r.png>] (./SON.toc
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
-)
+r.png>] (./encryption.toc)
 \tf@toc=\write3
-\openout3 = `SON.toc'.
+\openout3 = `encryption.toc'.
 
- [1
 
-]
-Chapter 1.
-[2
+[1
 
-]
-Chapter 2.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 142.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 142.
- [3
-
-]
-</home/frederik/Pictures/anr1.png, id=27, 597.23125pt x 336.25626pt>
-File: /home/frederik/Pictures/anr1.png Graphic file (type png)
-<use /home/frederik/Pictures/anr1.png>
-Package pdftex.def Info: /home/frederik/Pictures/anr1.png  used on input line 1
-68. on input line 168.
-Package pdftex.def Info: Requested size: 358.3415pt x 201.75531pt on input line
- 168.
- [4 </home/frederik/Pictures/anr1.png>]
-Chapter 3.
-</home/frederik/Pictures/hej1234.png, id=31, 1036.87375pt x 397.485pt>
-File: /home/frederik/Pictures/hej1234.png Graphic file (type png)
-<use /home/frederik/Pictures/hej1234.png>
-Package pdftex.def Info: /home/frederik/Pictures/hej1234.png  used on input lin
-e 194. on input line 194.
-Package pdftex.def Info: Requested size: 311.06451pt x 119.24641pt on input lin
-e 194.
-[5
-
- </home/frederik/Pictures/hej1234.png>] [6] [7]
-</home/frederik/Pictures/hejhej.png, id=42, 1144.275pt x 452.69125pt>
-File: /home/frederik/Pictures/hejhej.png Graphic file (type png)
-<use /home/frederik/Pictures/hejhej.png>
-Package pdftex.def Info: /home/frederik/Pictures/hejhej.png  used on input line
- 254. on input line 254.
-Package pdftex.def Info: Requested size: 457.70189pt x 181.07329pt on input lin
-e 254.
- [8 </home/frederik/Pictures/hejhej.png>]
-Chapter 4.
-[9
-
-] [10]
-Chapter 5.
-[11
-
-]
-Chapter 6.
-[12
-
-] (./SON.bbl
-Underfull \hbox (badness 7099) in paragraph at lines 8--11
-[]\T1/lmr/m/n/10 A. Roessler, ``test-ing ANR func-tion-al-ity on your LTE de-vi
-ces,'' 2013.  avail-able at
- []
-
-) 
+] 
 AED: lastpage setting LastPage
-[13
-
-
-] (./SON.aux) ) 
+(./encryption.aux) ) 
 Here is how much of TeX's memory you used:
- 4515 strings out of 494888
- 61593 string characters out of 6179709
- 218173 words of memory out of 5000000
- 7718 multiletter control sequences out of 15000+600000
- 70756 words of font info for 48 fonts, out of 8000000 for 9000
+ 4423 strings out of 494888
+ 60175 string characters out of 6179709
+ 212141 words of memory out of 5000000
+ 7646 multiletter control sequences out of 15000+600000
+ 43700 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,11n,43p,1534b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf
-/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on SON.pdf (14 pages, 457379 bytes).
+ 41i,7n,43p,277b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/
+texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmri12.pfb>
+Output written on encryption.pdf (2 pages, 124959 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

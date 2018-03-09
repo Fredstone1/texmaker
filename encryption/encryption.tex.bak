@@ -1,0 +1,122 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[section]{placeins} %when placing img
+\usepackage{url}
+
+% Margins
+\topmargin=-.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\hmwkAuthorName} % Top left header
+\chead{} % Top center head
+\rhead{\hmwkTitle} % Top right header
+\lfoot{\hmwkClass} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+%----------------------------------------------------------------------------------------
+%	CODE INCLUSION CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT STRUCTURE COMMANDS
+%	Skip this unless you know what you're doing
+%----------------------------------------------------------------------------------------
+\definecolor{RoyalRed}{RGB}{157,16, 45}
+\titleformat{\chapter}[display]
+  {\normalsize \huge \color{black}}
+  {\flushright \normalsize \color{RoyalRed} \MakeUppercase { \hspace{1 ex}}  { \fontsize{70}{70}\selectfont \color{RoyalRed} \thechapter}} {-29 pt}{\bfseries\huge}
+  \titlespacing*{\chapter}{0pt}{-35pt}{20pt}
+  
+
+% you can add \chaptertitlename before hspace
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CLASS SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\hmwkTitle}{RSA Encryption} % Assignment title
+\newcommand{\hmwkDueDate}{Sunday,\ January\ 21,\ 2018} % Due date
+\newcommand{\hmwkClass}{Coding in communication systems\ 34220 \\} % Course/class
+\newcommand{\hmwkClassTime}{Department of Photonics Engineering} % Kursusansvarlig profession
+\newcommand{\hmwkClassInstructor}{Knud Jørgen Larsen} % Teacher/lecturer
+\newcommand{\hmwkAuthorName}{Frederik Rander Andersen, s164146 and  Magnus Glasdam Jakobsen, s164156} % Your name
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+\vspace{-0.5in}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}} 
+\textmd{\textbf{\hmwkClass \hmwkTitle}}\\
+\normalsize\vspace{0.1in}\small{\hmwkDueDate}\\
+\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}} 
+\vspace{1in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{} % Insert date here if you want it to appear below your name
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.15]{dtulogo.png}
+\end{figure}
+
+\begin{figure}[!b]
+	\includegraphics[scale=0.25]{dtufooter.png}
+\end{figure}
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\newpage
+\tableofcontents
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION & OVERVIEW
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+\clearpage
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{ieeetr}
+%\bibliography{/home/frederik/Documents/bibtex/SON.bib}
+\end{document}

@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{polynom}
+
+\begin{document}
+\textbf{Style A:}\par % this is the default - brug denne
+\polylongdiv[style=A]{x^5-2x^4+x^3+x^2-x}{x^4-2x^3+x^2}
+
+\textbf{Style B:}\par
+\polylongdiv[style=B]{16x^3+20x^2-3}{4x^3+4x^2-x-1}
+
+\textbf{Style C:}\par
+\polylongdiv[style=C]{16x^3+20x^2-3}{4x^3+4x^2-x-1}
+
+\textbf{Style D:}\par
+\polylongdiv[style=D]{16x^3+20x^2-3}{4x^3+4x^2-x-1}
+
+\end{document}
