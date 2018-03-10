@@ -1,0 +1,7 @@
+\contentsline {chapter}{\chapternumberline {I}\\ Descriptive analysis}{1}{chapter.1}
+\contentsline {section}{\numberline {1}a) - Data description and introduction}{1}{section.1.1}
+\contentsline {section}{\numberline {2}b) - Density histogram}{1}{section.1.2}
+\contentsline {subsection}{\numberline {2.1}first subsection}{2}{subsection.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}first subsubsection}{2}{subsubsection.1.2.1.1}
+\contentsline {paragraph}{first paragraph}{2}{paragraph*.1}
+\contentsline {subparagraph}{first subparagraph}{2}{subparagraph*.2}

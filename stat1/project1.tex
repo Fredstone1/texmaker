@@ -66,11 +66,11 @@
 %	NAME AND CLASS SECTION
 %----------------------------------------------------------------------------------------
 
-\newcommand{\hmwkTitle}{Assignment title} % Assignment title
-\newcommand{\hmwkDueDate}{Weekday,\ Month\ date,\ year} % Due date
-\newcommand{\hmwkClass}{Course \- number} % Course/class
-\newcommand{\hmwkClassTime}{Department of ***} % Kursusansvarlig profession
-\newcommand{\hmwkClassInstructor}{Professor,} % Teacher/lecturer
+\newcommand{\hmwkTitle}{Project 1 - BMI survey} % Assignment title
+\newcommand{\hmwkDueDate}{Tuesday,\ 03\ 13,\ 2018} % Due date
+\newcommand{\hmwkClass}{Introduction to statistics \- 02402} % Course/class
+\newcommand{\hmwkClassTime}{Department of Applied Mathematics and Computer Science} % Kursusansvarlig profession
+\newcommand{\hmwkClassInstructor}{Nina Munkholt Jakobsen,} % Teacher/lecturer
 \newcommand{\hmwkAuthorName}{Frederik Rander Andersen, s164146} % Your name
 
 %----------------------------------------------------------------------------------------
@@ -121,10 +121,22 @@
 % pagenumbering{roman}
 \pagenumbering{arabic}
 
-\chapter{\\ Example chapter no 1}
+\chapter{\\ Descriptive analysis}
 
-\section{first section}
+\section{a) - Data description and introduction}
+Body Mass Index or BMI is a formula to describe whether a person is overweight or not. It only considers height and weight, not things such as body fat. The formula is simply: 
+$$ BMI = \frac{weight(kg)}{height(cm)^2}$$
 
+The data we are given is a number of measurements done on 145 persons. The information given is: height, weight, gender, urbanity and fastfood. Height is in cm, weight in kg, gender as 0(female) or 1(male), urbanity ranging from 1 to 5 given as the population of the place where the person lives, 0 being outside urban areas and 5 being in a city with more than 100000 inhabitant. Fastfood is given as how often the person eats fastfood given in days per year. 
+Of the given variables, height, weight and fastfood are quantitative while gender and urbanity are categorized variables. We are given 145 observations and there are no missing values.
+
+\section{b) - Density histogram}
+The figure below shows a density histogram of the BMI observations. The red lines separate each of the BMI categories and the dotted line is a density estimate derived from the given data. 
+
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[scale=0.74]{histBMI.png}
+\end{figure}
 \subsection{first subsection}
 
 \subsubsection{first subsubsection}
