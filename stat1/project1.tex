@@ -6,6 +6,7 @@
 \usepackage{titlesec}
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
+\usepackage{float}
 \usepackage{fancyhdr} % Required for custom headers
 \usepackage{lastpage} % Required to determine the last page for the footer
 \usepackage{extramarks} % Required for headers and footers
@@ -18,6 +19,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 
+
 % Margins
 \topmargin=-.45in
 \evensidemargin=0in
@@ -27,7 +29,14 @@
 \headsep=0.25in
 \linespread{1.1} % Line spacing
 
-
+\hypersetup{
+    colorlinks,
+    linktoc = all,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 %----------------------------------------------------------------------------------------
 %	DOCUMENT STRUCTURE COMMANDS
 %	Skip this unless you know what you're doing
@@ -37,6 +46,7 @@
 \renewcommand*\thesection{\arabic{section}}
 \renewcommand*{\chapnumfont}{\huge\bfseries}
 \renewcommand*{\chaptitlefont}{\huge\bfseries}
+\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 
 \makepagestyle{DTU}							
 \makepsmarks{DTU}{%
@@ -121,7 +131,7 @@
 % pagenumbering{roman}
 \pagenumbering{arabic}
 
-\chapter{\\ Descriptive analysis}
+\chapter[Descriptive analysis]{\\ Descriptive analysis} % first [] is what you want in the TOC and {} is chapter title 
 
 \section{a) - Data description and introduction}
 Body Mass Index or BMI is a formula to describe whether a person is overweight or not. It only considers height and weight, not things such as body fat. The formula is simply: 
@@ -132,11 +142,15 @@ Of the given variables, height, weight and fastfood are quantitative while gende
 
 \section{b) - Density histogram}
 The figure below shows a density histogram of the BMI observations. The red lines separate each of the BMI categories and the dotted line is a density estimate derived from the given data. 
-
-\begin{figure}[!ht]
+\begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.74]{histBMI.png}
+	\includegraphics[scale=0.7]{histBMI.png}
+	\caption{Density histogram of BMI}
 \end{figure}
+
+From the histogram we see that 
+%BMI cannot be negative since what we are getting out of the formula is kg/m^2 and a person cannot have negative weight or height. 
+
 \subsection{first subsection}
 
 \subsubsection{first subsubsection}

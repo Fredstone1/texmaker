@@ -18,6 +18,7 @@
 \usepackage{url}
 \usepackage{hyperref}
 
+
 % Margins
 \topmargin=-.45in
 \evensidemargin=0in
@@ -27,7 +28,14 @@
 \headsep=0.25in
 \linespread{1.1} % Line spacing
 
-
+\hypersetup{
+    colorlinks,
+    linktoc = all,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
 %----------------------------------------------------------------------------------------
 %	DOCUMENT STRUCTURE COMMANDS
 %	Skip this unless you know what you're doing
@@ -121,7 +129,7 @@
 % pagenumbering{roman}
 \pagenumbering{arabic}
 
-\chapter{\\ Descriptive analysis}
+\chapter[Descriptive analysis]{\\ Descriptive analysis} % first [] is what you want in the TOC and {} is chapter title 
 
 \section{a) - Data description and introduction}
 Body Mass Index or BMI is a formula to describe whether a person is overweight or not. It only considers height and weight, not things such as body fat. The formula is simply: 
@@ -131,8 +139,13 @@ The data we are given is a number of measurements done on 145 persons. The infor
 Of the given variables, height, weight and fastfood are quantitative while gender and urbanity are categorized variables. We are given 145 observations and there are no missing values.
 
 \section{b) - Density histogram}
-The figure below shows a density histogram of the BMI observations. The red lines separate each of the BMI categories and the dotted line is a density plot
+The figure below shows a density histogram of the BMI observations. The red lines separate each of the BMI categories and the dotted line is a density estimate derived from the given data. 
+%BMI cannot be negative since what we are getting out of the formula is kg/m^2 and a person cannot have negative weight or height. 
 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[scale=0.74]{histBMI.png}
+\end{figure}
 \subsection{first subsection}
 
 \subsubsection{first subsubsection}
