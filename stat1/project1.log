@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  11 MAR 2018 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.29)  24 MAR 2018 12:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -922,46 +922,71 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip257
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+\everycr=\toks30
+\minrowclearance=\skip258
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count159
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 
 (./project1.aux)
 \openout1 = `project1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 107.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 105.
+(lastpage)             ! on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count159
+\scratchcounter=\count160
 \scratchdimen=\dimen162
 \scratchbox=\box34
-\nofMPsegments=\count160
-\nofMParguments=\count161
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count162
+\nofMPsegments=\count161
+\nofMParguments=\count162
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count163
 \MPscratchDim=\dimen163
-\MPnumerator=\count163
-\makeMPintoPDFobject=\count164
-\everyMPtoPDFconversion=\toks31
+\MPnumerator=\count164
+\makeMPintoPDFobject=\count165
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -979,9 +1004,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count165
+\c@lstlisting=\count166
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 105.
+Package hyperref Info: Link coloring ON on input line 107.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -989,61 +1014,61 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count166
+\c@section@level=\count167
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 105.
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \nameref on input line 107.
+LaTeX Info: Redefining \ref on input line 107.
+LaTeX Info: Redefining \pageref on input line 107.
+LaTeX Info: Redefining \nameref on input line 107.
 (./project1.out) (./project1.out)
 \@outlinefile=\write4
 \openout4 = `project1.out'.
 
-<dtulogo.png, id=16, 709.65125pt x 1027.84pt>
+<dtulogo.png, id=64, 709.65125pt x 1027.84pt>
 File: dtulogo.png Graphic file (type png)
 <use dtulogo.png>
-Package pdftex.def Info: dtulogo.png  used on input line 108. on input line 108
+Package pdftex.def Info: dtulogo.png  used on input line 110. on input line 110
 .
 Package pdftex.def Info: Requested size: 106.44308pt x 154.16934pt on input lin
-e 108.
-<dtufooter.png, id=18, 828.09375pt x 154.5775pt>
+e 110.
+<dtufooter.png, id=66, 828.09375pt x 154.5775pt>
 File: dtufooter.png Graphic file (type png)
 <use dtufooter.png>
-Package pdftex.def Info: dtufooter.png  used on input line 112. on input line 1
-12.
+Package pdftex.def Info: dtufooter.png  used on input line 114. on input line 1
+14.
 Package pdftex.def Info: Requested size: 207.02293pt x 38.64427pt on input line
- 112.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 115.
+ 114.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 117.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 115.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 117.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 115
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 117
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 115
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 117
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 115.
+(Font)              <10.95> on input line 117.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 115.
+(Font)              <8> on input line 117.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 115.
+(Font)              <6> on input line 117.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./dtulogo.png> <./dtufoote
@@ -1055,57 +1080,125 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 1.
 ) [2]
-<histBMI.png, id=40, 511.15968pt x 448.67625pt>
-File: histBMI.png Graphic file (type png)
-<use histBMI.png>
-Package pdftex.def Info: histBMI.png  used on input line 147. on input line 147
-.
-Package pdftex.def Info: Requested size: 357.80933pt x 314.07123pt on input lin
-e 147.
+<Hist.png, id=112, 473.51906pt x 416.30531pt>
+File: Hist.png Graphic file (type png)
+<use Hist.png>
+Package pdftex.def Info: Hist.png  used on input line 150. on input line 150.
+Package pdftex.def Info: Requested size: 331.46106pt x 291.41173pt on input lin
+e 150.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \subsection{first subsection}
-                                    [1 <./histBMI.png (PNG copy)>]
+l.156 
+       [1 <./Hist.png (PNG copy)>]
+<femalehist.png, id=121, 473.51906pt x 416.30531pt>
+File: femalehist.png Graphic file (type png)
+<use femalehist.png>
+Package pdftex.def Info: femalehist.png  used on input line 162. on input line 
+162.
+Package pdftex.def Info: Requested size: 234.87749pt x 206.49419pt on input lin
+e 162.
+<malehist.png, id=122, 473.51906pt x 416.30531pt>
+File: malehist.png Graphic file (type png)
+<use malehist.png>
+Package pdftex.def Info: malehist.png  used on input line 167. on input line 16
+7.
+Package pdftex.def Info: Requested size: 234.87749pt x 206.49419pt on input lin
+e 167.
+<boxplot.png, id=123, 473.51906pt x 416.30531pt>
+File: boxplot.png Graphic file (type png)
+<use boxplot.png>
+Package pdftex.def Info: boxplot.png  used on input line 183. on input line 183
+.
+Package pdftex.def Info: Requested size: 331.46106pt x 291.41173pt on input lin
+e 183.
 
-AED: lastpage setting LastPage
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 \end{document}
-                     [2]
+l.186 F
+       rom the female BMI box plot we can conclude that the distribution is ...
+[2 <./femalehist.png (PNG copy)> <./malehist.png (PNG copy)>] [3 <./boxplot.png
+>]
+<qqplot1.png, id=138, 473.51906pt x 416.30531pt>
+File: qqplot1.png Graphic file (type png)
+<use qqplot1.png>
+Package pdftex.def Info: qqplot1.png  used on input line 214. on input line 214
+.
+Package pdftex.def Info: Requested size: 284.11362pt x 249.78511pt on input lin
+e 214.
+ [4
+
+ <./qqplot1.png>]
+<femalelog.png, id=146, 473.51906pt x 416.30531pt>
+File: femalelog.png Graphic file (type png)
+<use femalelog.png>
+Package pdftex.def Info: femalelog.png  used on input line 247. on input line 2
+47.
+Package pdftex.def Info: Requested size: 234.87749pt x 206.49419pt on input lin
+e 247.
+<malelog.png, id=147, 473.51906pt x 416.30531pt>
+File: malelog.png Graphic file (type png)
+<use malelog.png>
+Package pdftex.def Info: malelog.png  used on input line 252. on input line 252
+.
+Package pdftex.def Info: Requested size: 234.87749pt x 206.49419pt on input lin
+e 252.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 260.
+
+[5 <./femalelog.png> <./malelog.png>]
+<scatter.png, id=160, 473.51906pt x 416.30531pt>
+File: scatter.png Graphic file (type png)
+<use scatter.png>
+Package pdftex.def Info: scatter.png  used on input line 309. on input line 309
+.
+Package pdftex.def Info: Requested size: 378.81575pt x 333.0447pt on input line
+ 309.
+ [6] 
+AED: lastpage setting LastPage
+[7 <./scatter.png>]
 \tf@toc=\write5
 \openout5 = `project1.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (./project1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `project1.out' has not changed.
-(rerunfilecheck)             Checksum: 64948E85F33058C50DA53AB674F07A80;209.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+(rerunfilecheck)             Checksum: 4129C7E0197A48F91264664D599ABD3C;1112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
- 11411 strings out of 494888
- 161087 string characters out of 6179709
- 374102 words of memory out of 5000000
- 14578 multiletter control sequences out of 15000+600000
- 58050 words of font info for 46 fonts, out of 8000000 for 9000
+ 11925 strings out of 494888
+ 167014 string characters out of 6179709
+ 389299 words of memory out of 5000000
+ 15051 multiletter control sequences out of 15000+600000
+ 61042 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 31i,11n,43p,476b,326s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share
-/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on project1.pdf (4 pages, 190303 bytes).
+ 43i,12n,43p,476b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex
+10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy7.pfb>
+Output written on project1.pdf (9 pages, 350911 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 227 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

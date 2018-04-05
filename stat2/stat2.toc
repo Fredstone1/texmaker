@@ -1,4 +1,4 @@
-\contentsline {chapter}{\chapternumberline {I}Whatever description you want in TOC}{1}{chapter.1}
+\contentsline {chapter}{\chapternumberline {I}\\ Example chapter no 1}{1}{chapter.1}
 \contentsline {section}{\numberline {1}first section}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1}first subsection}{1}{subsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.1}first subsubsection}{1}{subsubsection.1.1.1.1}

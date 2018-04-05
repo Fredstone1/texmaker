@@ -1,7 +1,15 @@
 \contentsline {chapter}{\chapternumberline {I}Descriptive analysis}{1}{chapter.1}
 \contentsline {section}{\numberline {1}a) - Data description and introduction}{1}{section.1.1}
 \contentsline {section}{\numberline {2}b) - Density histogram}{1}{section.1.2}
-\contentsline {subsection}{\numberline {2.1}first subsection}{2}{subsection.1.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}first subsubsection}{2}{subsubsection.1.2.1.1}
-\contentsline {paragraph}{first paragraph}{2}{paragraph*.1}
-\contentsline {subparagraph}{first subparagraph}{2}{subparagraph*.2}
+\contentsline {section}{\numberline {3}c) - Gender density histograms}{2}{section.1.3}
+\contentsline {section}{\numberline {4}d) - Box plot}{3}{section.1.4}
+\contentsline {section}{\numberline {5}e) - BMI summary statistics}{3}{section.1.5}
+\contentsline {chapter}{\chapternumberline {II}Statistical Analysis}{4}{chapter.2}
+\contentsline {section}{\numberline {1}f) - Statistical model for BMI}{4}{section.2.1}
+\contentsline {section}{\numberline {2}g) - Confidence interval formula}{4}{section.2.2}
+\contentsline {section}{\numberline {3}h) - hypothesis test}{5}{section.2.3}
+\contentsline {section}{\numberline {4}i) - statistical models for female and male BMI}{5}{section.2.4}
+\contentsline {section}{\numberline {5}j) - median confidence interval }{6}{section.2.5}
+\contentsline {section}{\numberline {6}k) - hypothesis test}{6}{section.2.6}
+\contentsline {section}{\numberline {7}l) - Comment on the hypothesis test}{6}{section.2.7}
+\contentsline {section}{\numberline {8}m) - Correlation between BMI and weight}{6}{section.2.8}

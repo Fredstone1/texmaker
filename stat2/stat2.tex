@@ -6,7 +6,6 @@
 \usepackage{titlesec}
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
-\usepackage{float}
 \usepackage{fancyhdr} % Required for custom headers
 \usepackage{lastpage} % Required to determine the last page for the footer
 \usepackage{extramarks} % Required for headers and footers
@@ -18,8 +17,6 @@
 \usepackage[section]{placeins} %when placing img
 \usepackage{url}
 \usepackage{hyperref}
-\usepackage[table,xcdraw]{xcolor}
-
 
 % Margins
 \topmargin=-.45in
@@ -30,14 +27,7 @@
 \headsep=0.25in
 \linespread{1.1} % Line spacing
 
-\hypersetup{
-    colorlinks,
-    linktoc = all,
-    citecolor=black,
-    filecolor=black,
-    linkcolor=black,
-    urlcolor=black
-}
+
 %----------------------------------------------------------------------------------------
 %	DOCUMENT STRUCTURE COMMANDS
 %	Skip this unless you know what you're doing
@@ -47,8 +37,6 @@
 \renewcommand*\thesection{\arabic{section}}
 \renewcommand*{\chapnumfont}{\huge\bfseries}
 \renewcommand*{\chaptitlefont}{\huge\bfseries}
-\renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
-\renewcommand{\thetable}{\arabic{chapter}.\arabic{figure}}
 
 \makepagestyle{DTU}							
 \makepsmarks{DTU}{%
@@ -78,11 +66,11 @@
 %	NAME AND CLASS SECTION
 %----------------------------------------------------------------------------------------
 
-\newcommand{\hmwkTitle}{Assignment title} % Assignment title
-\newcommand{\hmwkDueDate}{Weekday,\ Month\ date,\ year} % Due date
-\newcommand{\hmwkClass}{Course \- number} % Course/class
-\newcommand{\hmwkClassTime}{Department of ***} % Kursusansvarlig profession
-\newcommand{\hmwkClassInstructor}{Professor,} % Teacher/lecturer
+\newcommand{\hmwkTitle}{Statistics Project 2: BMI survey II} % Assignment title
+\newcommand{\hmwkDueDate}{Tuesday,\ April\ 10,\ 2018} % Due date
+\newcommand{\hmwkClass}{Introduction to statistics \- 02402} % Course/class
+\newcommand{\hmwkClassTime}{Department of Applied Mathematics and Computer Science } % Kursusansvarlig profession
+\newcommand{\hmwkClassInstructor}{Nina Munkholt,} % Teacher/lecturer
 \newcommand{\hmwkAuthorName}{Frederik Rander Andersen, s164146} % Your name
 
 %----------------------------------------------------------------------------------------
@@ -133,9 +121,10 @@
 % pagenumbering{roman}
 \pagenumbering{arabic}
 
-\chapter[Whatever description you want in TOC]{\\ Example chapter no 1}
+\chapter[Statistical Analysis]{\\ Statistical Analysis}
 
-\section{first section}
+\section{a) - Descriptive analysis and summary of data}
+The three variables, logbmi, age and fastfood 
 
 \subsection{first subsection}
 
@@ -144,6 +133,9 @@
 \paragraph{first paragraph}
 
 \subparagraph{first subparagraph}
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
